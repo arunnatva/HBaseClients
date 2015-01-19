@@ -5,3 +5,5 @@ I m going to write  java clients
 2. To bulk load data into a hbase table
 3. To run a mapreduce job on top of hbase table(s)
 
+YOu need to keep a list of jars in the class path to run this code
+
