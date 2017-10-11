@@ -1,7 +1,7 @@
 
 //export SPARK_HOME=/usr/hdp/current/spark2-client
 //$SPARK_HOME/bin/spark-shell --master yarn --packages com.hortonworks:shc-core:1.1.1-2.1-s_2.11 --repositories http://repo.hortonworks.com/content/groups/public/ --conf spark.driver.extraClassPath=/etc/hbase/conf
-
+//This scala code loads data into hbase using spark-hbase-connector
 import org.apache.spark.sql.execution.datasources.hbase._
 import org.apache.spark.sql.functions._
 
